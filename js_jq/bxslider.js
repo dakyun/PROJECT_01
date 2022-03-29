@@ -1,0 +1,21 @@
+$('.visual_slide').bxSlider({
+    mode:'fade',
+    wrapperClass:'#header_slogan',
+    auto:true,
+    pause:4500,
+    controls:false,
+    autoControls:true,
+    autoControlsCombine:true,
+    autoControlsSelector:'.btn_box',
+    pagerSelector:".mv_pager",
+    touchEnabled:false
+})
+$('.mb_slider').bxSlider({
+    controls:false,
+    pager:true,
+    auto:true,
+	pause:2500,
+	autoControls:true,
+	autoControlsCombine:true,
+    autoHover:true,
+});
