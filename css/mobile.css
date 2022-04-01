@@ -1,0 +1,249 @@
+#wrap{
+    max-width:500px;
+    width:100%;
+    margin:0 auto;
+}
+.m_container{
+    max-width:500px;
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    padding:0 15px;
+}
+header{
+    width:100%;
+    height:70px;
+    position: relative;
+}
+header h1 .logo{
+    width:125px;
+    height:43px;
+    text-indent:-9999px;
+    background:url(../images/logo2.png) no-repeat center 50%;
+    z-index:55;
+    display: block;
+    top:15px;
+    left:15px;
+}
+header .search_map{
+    position: absolute;
+    top:10px;
+    right:0;
+}
+header .search_map div a{
+    width:31px;
+    height:32px;
+    display:block;
+    text-indent: -9999px;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    margin:10px;
+}
+header .search_map .search a{
+    background-image:url(../images/search_ico_on.png);
+}
+header .search_map .site_map a{
+    background-image:url(../images/allmenu_ico2.png);
+}
+#header_slogan{
+    width:100%;
+    height:540px;
+    overflow:hidden;
+}
+#header_slogan .visual_slide li{
+    height:540px;
+}
+#header_slogan .slogan{
+    position: absolute;
+    top:23%;
+    color:#fff;
+    z-index:444;
+}
+#header_slogan .visual_slide li:nth-child(1) .slogan .slogan_subject{
+    font-size:32px;
+    font-family: 'NanumMyeongjo';
+    line-height:40px;
+    margin:30px 0 40px 0;
+}
+#header_slogan .visual_slide li:not(:nth-child(1)) .slogan .slogan_subject{
+    font-size:50px;
+    font-family: 'NanumMyeongjo';
+    line-height:80px;
+    font-weight:600;
+    margin:10px 0;
+}
+#header_slogan .slogan p.subject_eng{
+    font-size:13px;
+    letter-spacing:8px;
+}
+#header_slogan .slogan a{
+    color:#fff;
+    font-size:13px;
+    text-decoration:none;
+    padding:10px 20px;
+    border:1px solid #f0f0f0;
+    transition:all 0.3s;
+}
+#header_slogan .visual_slide li:not(:nth-child(1)) .slogan .txt1{
+    font-size: 16px;
+    line-height: 26px;
+}
+#header_slogan .visual_slide li:not(:nth-child(1)) .slogan .txt2{
+    font-size: 13px;
+    line-height: 22px;
+    margin:10px 0;
+    color:rgba(255, 255, 255, .8);
+}
+#header_slogan .slogan a:hover{
+    background-color:rgba(255, 255, 255, .7);
+    color:#222;
+    transition:all 0.3s;
+}
+#header_slogan .pager_container{
+    max-width:500px;
+    width:100%;
+    height:20px;
+    position:relative;
+    top:-80px;
+    margin:0 15px;
+}
+#header_slogan .mv_pager .bx-pager-item a{
+    width:30px;
+    margin-right:10px;
+}
+#header_slogan .btn_box{
+    left:35%;
+}
+
+/* main */
+
+.content1::before{
+    display:none;
+}
+/* notice */
+.second_news>ul>li{
+    height:100%;
+}
+.second_news h4{
+    padding:12px 15px;
+    font-size:17px;
+}
+.notice{
+    width:100%;
+}
+.notice ul{
+    padding:20px 10px 20px 18px;
+}
+.notice li{
+    margin:0;
+    line-height: 1.8;
+}
+.notice li>strong>a{
+    font-size:15px;
+}
+.notice li .date{
+    font-size:15px;
+    position:static;
+}
+.notice .more_btn::after{
+    bottom:175px;
+    right:20px;
+}
+/* magazine, recruit */
+.magazine, .recruit{
+    margin:0;
+}
+.second_news ul>li.magazine, .second_news ul>li.recruit{
+    width:49%;
+    height:13rem;
+}
+.second_news ul>li.recruit{
+    margin-right:2%;
+    padding:15px 4%;
+}
+.recruit::after{
+    display: none;
+}
+.recruit span{
+    font-size:13px;
+    padding:8px 10px;
+}
+.recruit>a>p{
+    font-size: 15px;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+.recruit>a>p.date{
+    font-size:13px;
+    margin-bottom:0;
+}
+.magazine a{
+    width:47.5%;
+    margin:15px auto 0;
+}
+.magazine img{
+    width:100%;
+}
+.magazine .more_btn::after{
+    bottom:0;
+    top:14px;
+    right:20px;
+}
+/* media_ news */
+.media_news ul li.video, .media_news ul li.card_news{
+    width:49%;
+    height:13rem;
+    margin:0;
+    margin-bottom:2%;
+}
+.media_news ul li.video{
+    margin-right:2%;
+}
+.media_news h4{
+    font-size:17px;
+    padding:20px 15px;
+    width:100%;
+    height:100%;
+}
+.video img{
+    transform: scale(1.8) translateX(-8%);
+}
+.more_btn_w::after{
+    bottom:0;
+    top:25px;
+}
+.media_news .video h4::after{
+    margin:60px auto;
+}
+.content1::after{
+    display:none;
+}
+
+/* komsco service */
+.content2::after{
+    display:none;
+}
+
+.content2 .suggest h4{
+    background-size:10%;
+}
+.content2 .suggest h4>strong, .service_box h4>strong{
+    font-size:1.1rem;
+}
+.content2 .suggest h4>span{
+    font-size:0.8rem;
+    margin:10px 0;
+}
+.content2 .suggest li:nth-child(2){
+    border-bottom:none;
+}
+.content2 .suggest li{
+    width:100%;
+}
+.content2 .suggest li span.right{
+    margin-left:10%;
+}
+.content2 .suggest li:nth-child(1) span.right{
+    margin-left:22%;
+}

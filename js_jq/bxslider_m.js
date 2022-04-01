@@ -1,0 +1,45 @@
+$('.visual_slide').bxSlider({
+    mode:'fade',
+    wrapperClass:'#header_slogan',
+    auto:true,
+    pause:4500,
+    controls:false,
+    autoControls:true,
+    autoControlsCombine:true,
+    autoControlsSelector:'.btn_box',
+    pagerSelector:".mv_pager",
+    touchEnabled:false
+})
+$('.mn_slider').bxSlider({
+    controls:false,
+    pager:true,
+    auto:false,
+    minSlides:2,
+    maxSlides:2,
+    slideWidth:300,
+});
+$('.bns_slider').bxSlider({
+    pager:false,
+    mode:'fade'
+});
+$('.site_slider').bxSlider({
+    controls:true,
+    pager:false,
+    auto:false,
+    minSlides:2,
+    maxSlides:2,
+    slideWidth:170,
+    wrapperClass:'site_list',
+    moveSlides:1,
+    infiniteLoop:true
+})
+$('.mb_slider').bxSlider({
+    controls:false,
+    pager:true,
+    auto:true,
+	pause:2500,
+	autoControls:true,
+	autoControlsCombine:true,
+    autoHover:true,
+    wrapperClass:'mini_banner'
+});

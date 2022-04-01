@@ -1,29 +1,3 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Shizuru&display=swap');
-
-/* basic css */
-*{margin:0;padding:0;box-sizing:border-box;}
-html{overflow-y:scroll;}
-body{font-family: 'Noto Sans KR', sans-serif,Dotum,'돋움',Arial,sans-serif;}
-ul,li{list-style:none;}
-a{text-decoration:none;color:#222;}
-img{border:0;vertical-align:top;}
-a:link{color:#222;}
-a:visited{color:#222;}
-.fl{float:left;}
-.fr{float:right;}
-.cb{clear:both;}
-.cf::after{content:'';display:block;clear:both;}
-.pd40{padding-bottom:40px;}
-/* font-family: 'NanumSquareLight';
-font-family: 'NanumSquare';
-font-family: 'NanumSquareBold';
-font-family: 'NanumSquareExtraBold';
-font-family: 'NanumSquareAcb';
-font-family: 'NanumSquareAceb';
-font-family: 'NanumSquareAcl';
-font-family: 'NanumSquareAcr'; */
-
 /* skip navigation */
 #skip{
     position: relative;
@@ -101,32 +75,6 @@ header{
 }
 /* detail */
 
-
-/* header_top */
-#header_top .top_menu a,#header_top .top_menu li{
-    font-size:15px;
-    font-weight:normal;
-    color:#666;
-    margin-right:6px;
-}
-#header_top .top_menu li{
-    cursor:default;
-}
-#header_top{
-    position:absolute;
-    top:25px;
-    right:50px;
-}
-#header_nav .search_map{
-    position:absolute;
-    top:65px;
-    right:50px;
-}
-
-/* header_slogan */
-/* font-family: 'NanumMyeongjo';
-font-family: 'NanumMyeongjoBold';
-font-family: 'NanumMyeongjoExtraBold'; */
 .container{
     width:1280px;
     margin:auto;
