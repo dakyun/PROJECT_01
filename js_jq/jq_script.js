@@ -41,3 +41,6 @@ $(function(){
         $('#blind').css('display','none')
     })
 });
+
+/* 추천 검색어 autocomplete */
+$('#search_txt').autocomplete({source:recommend});

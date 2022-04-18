@@ -609,3 +609,9 @@ h1 .logo:after{
     50%{transform:translateY(0);}
     100%{transform:translateY(15px);}
 }
+
+
+/* jquery css */
+.ui-widget.ui-widget-content{
+    z-index:99999;
+}

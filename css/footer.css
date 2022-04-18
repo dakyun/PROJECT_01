@@ -198,7 +198,7 @@
 	right:2%;
     width:60px;
     height:60px;
-    background:rgba(0, 0, 0, .8) url(../images/top_btn_arrow.png)no-repeat center;
+    background:rgba(0, 0, 0, .8) url(../images/top_btn_arrow.png) no-repeat center;
 	border:none;
 	border-radius:50%;
 	box-shadow:0 0 2em 0 rgba(0, 0, 0, .25);
