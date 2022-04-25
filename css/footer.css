@@ -99,7 +99,7 @@
     height:41px;
     background:url(../images/wa_mark.png) no-repeat center;
     text-indent:-9999px;
-    margin:0 10px 0 220px
+    margin:0 10px 0 170px
 }
 .info_etc .sns li a{
     width:26px;
@@ -189,6 +189,13 @@
 .info_etc .family_site input:checked ~ label::after{
     transform: rotate(-180deg);
     transition:all 0.5s;
+}
+
+/* valid box */
+.valid_box{
+    background-color:#111;
+    text-align:right;
+    padding:1rem 0;
 }
 
 /* top btn */

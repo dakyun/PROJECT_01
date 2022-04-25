@@ -68,7 +68,7 @@ main h3 strong{
     position:absolute;
     bottom:0;
     left:0;
-    transform:scale(105%) translateX(-40px);
+    transform:scale(1.1) translateX(-40px);
 }
 .content1 .main_news li:last-child img{
     transform: translateX(0px);
@@ -262,7 +262,7 @@ main .main_news .mn_slider li.new:after{
 .recruit::after{
     content:'';
     display:block;
-    background:url(../images/job_bg.png)no-repeat center;
+    background:url(../images/job_bg.png) no-repeat center;
     width:65px;
     height:60px;
     position:absolute;
@@ -279,7 +279,7 @@ main .main_news .mn_slider li.new:after{
     transition:all 0.3s;
 }
 .recruit:hover::after{
-    background:url(../images/job_bg_on.png)no-repeat center;
+    background:url(../images/job_bg_on.png) no-repeat center;
     transition:all 0.3s;
 }
 .media_news>ul>li{
@@ -379,10 +379,10 @@ main .main_news .mn_slider li.new:after{
     width:100%;
 }
 .mini_banner .bx-wrapper .bx-controls-auto .bx-start{
-    background:url(../images/popupzone_control_play.png)no-repeat center;
+    background:url(../images/popupzone_control_play.png) no-repeat center;
 }
 .mini_banner .bx-wrapper .bx-controls-auto .bx-stop{
-    background:url(../images/popupzone_control_stop.png)no-repeat center;
+    background:url(../images/popupzone_control_stop.png) no-repeat center;
 }
 .mini_banner .bx-controls-auto-item{
     position:relative;
