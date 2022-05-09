@@ -38,7 +38,7 @@ header{
     transition:all 0.3s;
     height:125px;
     position:fixed;
-    z-index:212121;
+    z-index:21;
 }
 h1 .logo{
     width:125px;
@@ -471,7 +471,7 @@ h1 .logo:after{
     position: absolute;
     top:35%;
     right:2%;
-    z-index:333;
+    z-index:2;
 }
 #header_slogan .quick_box ul li a{
     display: block;
